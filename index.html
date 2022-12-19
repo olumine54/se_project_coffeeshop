@@ -22,11 +22,14 @@
             alt="practicum" class="logo"/>
             <nav class="nav">
             <ul class="nav__links">
-                <li class="nav__link" href="#menu">Menu</li>
-                <li class="nav__link" href="#recipes">Recipes</li>
-                <li class="nav__link" href="#book-a-table">Book a table</li>
-                <li class="nav__link" href="#contacts">Contacts</li>
-
+                <li>
+                <a class="nav__link" href="#menu">Menu</a></li>
+                <li>
+                <a class="nav__link" href="#recipes">Recipes</a></li>
+                <li>
+                <a class="nav__link" href="#book-a-table">Book a table</a></li>
+                <li>
+                <a class="nav__link" href="#contacts">Contacts</a></li>
             </ul>
         </nav>
         <h1 class="header__title">
@@ -183,18 +186,17 @@
                 <h2 class="reservation__title">Book a table</h2>
                 <form class="reservation__form form">
                     <fieldset class="form__fieldset">
-                        <label for="namee" class="form__label">Name*               
+                        <label for="name" class="form__label">Name*               
                         </label>
                         <input type="text" class="form__input" id="name" placeholder="Name Surname"/>                        
-                        <label for="number" class="form__label">Number of guest*</label>
+                        <label for="number-of-guest" class="form__label">Number of guest*</label>
                         <input type="number" class="form__input" min="1" max="8"
                         id="number-of-guest" 
                         placeholder="1-8" required/>
-                        <label for="date & Time" class="form__label">Date & Time*</label>
-                        <input type="datetime-local" class="form__input" id="date-time" 
-                        placeholde="mm/dd/yyyy" onfocus="(this.type='date')"
-                        required/>
-                        <label for="text" class="form__label">Your email*</label>
+                        <label for="date-time" class="form__label">Date & Time*</label>
+                        <input type="datetime-local" class="form__input" id="date-time"                         
+                        required>
+                        <label for="your-email" class="form__label">Your email*</label>
                         <input type="email" class="form__input" 
                         id="your-email" 
                         placeholder="email@email.com" required/>                      
@@ -203,8 +205,8 @@
                         <button type="button" class="form__button">Book a table</button>
                     </fieldset> 
                     <fieldset class="form__fieldset">        
-                        <label for="I-agree-with-the-terms-of-use" class="form__label form__label-centered"> <input type="checkbox"
-                            class-formm__input form__input_type_checkbox
+                        <label for="I-agree-with-the-terms-of-use" class="form__label form__label-centered">
+                            <input type="checkbox"
                             name="I-agree-with-the-terms-of-use"
                             />
                             I agree with the terms of use
@@ -237,13 +239,13 @@
                         <li class="footer__list-items">
                             <a class="footer__social-link" 
                             href="#"><img 
-                            class="footer__social-icon" src="./images/facebook_white.svg"/>
+                            class="footer__social-icon" src="./images/facebook_white.svg" alt="facebook"/>
                             Facebook</a>
                         </li>
                         <li class="footer__list-items">
                             <a class="footer__social-link" 
                             href="#"><img 
-                            class="footer__social-icon" src="./images/instagram_white.svg"/>
+                            class="footer__social-icon" src="./images/instagram_white.svg" alt="instagram"/>
                             Instagram</a>
                         </li>
                     </ul>               

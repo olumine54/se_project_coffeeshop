@@ -18,7 +18,7 @@
     max-height: 800px;
     position: relative;
     margin: auto;
-    padding: 30px, 80px, 40px, 80px;
+    padding: 30px 80px 40px 80px;
 }
 
 .logo{
@@ -46,7 +46,7 @@
 }
 
 .nav__links:hover{
-    background: #2fc4ed 2s;
+    background: #2fc4ed;
 }
 
 .header__image{
