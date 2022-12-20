@@ -1,6 +1,6 @@
 .header {
     background-color: #ffffff;
-    background-image: url(./images/background_header.svg);
+    background-image: url(../images/background_header.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -9,6 +9,7 @@
     position: relative;
     margin: auto;
     padding: 30px 80px 40px 80px;
+    box-sizing: border-box;
   }
 
   .header__image {
@@ -42,7 +43,6 @@
     margin-top: 202px;
     max-width: 729px;
     margin-bottom: 28px;
-    padding-left: 80px;
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
@@ -51,11 +51,11 @@
   
   .header__description {
     max-width: 683px;
-    padding-left: 80px;
     font-family: "Noto Serif";
     font-style: normal;
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 0;
   }
   
   .header__span-accent {

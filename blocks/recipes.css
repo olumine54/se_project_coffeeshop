@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     column-gap: 40px;
+    margin-top: 80px;
     list-style: none;
   }
   
