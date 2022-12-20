@@ -8,10 +8,7 @@
     border: none;
     margin-left: 0;
     margin-right: 0;
-  }
-  
-  .form__fieldset:last-of-type {
-    margin-bottom: 120px;
+    padding: 0;
   }
 
   .form__label {

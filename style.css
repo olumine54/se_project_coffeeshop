@@ -9,7 +9,7 @@
 
 .header {
   background-color: #ffffff;
-  background-image: url(..images/background_header.svg);
+  background-image: url(.images/background_header.svg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -144,7 +144,7 @@
   margin-top: 0;
 }
 
-.menu__sub-title {
+.menu__subtitle {
   max-width: 780px;
   font-family: "Noto Serif";
   font-style: normal;
@@ -367,7 +367,7 @@
 }
 
 .about {
-  padding-top: 119px;
+  padding-top: 100px;
   padding-bottom: 173px;
   padding-right: 80px;
   padding-left: 80px;

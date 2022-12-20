@@ -17,7 +17,7 @@
   .footer__social-heading {
     margin: 0 0 20px;
     font-family: "Inter";
-    font-style: normal;
+    font-style: bold;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
@@ -33,14 +33,17 @@
     padding: 0;
     margin: 0;
   }
-  
-  .footer__list-items:not(:last-child) {
-    margin-bottom: 16px;
+
+  .footer__list-items{
     font-family: "Inter";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
+  }
+  
+  .footer__list-items:not(:last-child) {
+    margin-bottom: 16px;
   }
   
   .footer__social-link {
