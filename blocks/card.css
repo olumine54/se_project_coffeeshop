@@ -6,6 +6,8 @@
     line-height: 30px;
     flex-basis: 550px;
     max-width: 600px;
+    width: 100%;
+    list-style: none;
   }
   
   .card__title {
@@ -15,13 +17,12 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
-    margin-bottom: 32px;
-    margin-top: 0;
+    margin: 0 0 32px;
   }
   
   .card__list {
-    padding-left: 0;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
     list-style: none;
   }
   
@@ -33,19 +34,21 @@
     font-size: 16px;
     line-height: 20px;
     display: flex;
-    justify-content: center;
-    margin-bottom: 16px;
     align-items: baseline;
-    gap: 5px;
+    margin-bottom: 16px;
   }
 
   .card__list-item:last-of-type{
-    margin-bottom: 16px;
+    margin-bottom: 0;
   }
   
   .card__list-divider {
-    display: flex;
+    display: block;
+    min-width: 50px;
+    height: 1px;
+    background-color: #d9e7ff;
+    margin-left: 8px;
+    margin-right: 8px;
     flex-grow: 1;
-    align-items: baseline;
   }
-  
+    

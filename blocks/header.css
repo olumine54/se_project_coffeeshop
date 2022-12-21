@@ -39,6 +39,7 @@
     margin: 0;
     font-style: normal;
     font-weight: 500;
+    color: #6f6f6f;
   }
   
   .header__title {
@@ -58,6 +59,7 @@
     font-size: 20px;
     line-height: 30px;
     margin-bottom: 0;
+    margin-top: 0;
   }
   
   .header__span-accent {
