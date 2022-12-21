@@ -33,6 +33,7 @@
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border-style: none;
 }
 
 .recipes__subtitle {
