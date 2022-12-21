@@ -1,40 +1,42 @@
 .menu {
-    background-image: url(../images/background_menu.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: #0a2750;
-    color: white;
-    box-sizing: border-box;
-    padding: 100px 70px;
-  }
-  
-  .menu__title {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    text-align: center;
-    margin: 0 auto 24px;
-  }
-  
-  .menu__subtitle {
-    max-width: 780px;
-    font-family: "Noto Serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .menu__cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 100px;
-    margin-top: 100px;
-    justify-content: center;
-  }
-  
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: #0a2750;
+  color: white;
+  box-sizing: border-box;
+  padding: 100px 70px;
+}
+
+.menu__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0 auto 24px;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 100px;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
